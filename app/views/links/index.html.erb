@@ -1,2 +1,12 @@
-<h1>Links#index</h1>
-<p>Find me in app/views/links/index.html.erb</p>
+<h1>Welcome to HN_Clone</h1>
+
+<ul>
+<% @links.each do |link| %>
+	<li>
+	<%= link_to link.title, link.url %>
+	</li>
+<% end %>
+</ul>
+<p>
+	<%= link_to "Add link", new_link_path %>
+</p>

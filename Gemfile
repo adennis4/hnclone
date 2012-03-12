@@ -7,9 +7,11 @@ gem 'rails', '3.2.2'
 
 gem 'sqlite3'
 gem 'rspec-rails', '~> 2.8.1'
+gem 'rspec2-rails-views-matchers', '~> 0.2.2'
 
 group :test do
 	gem 'factory_girl_rails', '~> 1.7.0'
+	gem 'capybara', '~> 1.1.2'
 end
 
 
