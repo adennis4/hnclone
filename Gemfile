@@ -6,6 +6,11 @@ gem 'rails', '3.2.2'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
+gem 'rspec-rails', '~> 2.8.1'
+
+group :test do
+	gem 'factory_girl_rails', '~> 1.7.0'
+end
 
 
 # Gems used only for assets and not required
